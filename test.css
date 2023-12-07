@@ -1,0 +1,30 @@
+#container{
+    position: relative;
+}
+#div1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transition: opacity 1s linear;
+    background-color: red;
+    opacity: 1;
+}
+#div2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transition: opacity 1s linear;
+    background-color: blue;
+    opacity: 0;
+}
+#container:hover #div1{
+    opacity: 0;
+}
+#container:hover #div2{
+    opacity: 1;
+}
+@media screen and (max-width:415px) {
+    #div1{
+        position: fixed;
+    }
+}

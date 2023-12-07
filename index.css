@@ -1,0 +1,518 @@
+/*STILIZAREA PENTRU TABLETE*/
+@media screen and (min-width:415px) {
+    #h2titlu{
+        margin-top: -5.5rem;
+        margin-bottom: 10rem;
+        font-size: cover;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+    }
+}
+/*STILIZAREA PENTRU TELEFOANE*/
+@media screen and (max-width:414px){
+    #h2titlu{
+        margin-top: -2.5rem;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+    }
+}
+/*STILIZAREA PENTRU CALCULATOARE*/
+/*STILIZARE HEADER*/
+#capul{
+    margin-bottom: 2rem;
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    background-color: cadetblue;
+    height: 5rem;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    width: 101%;
+    z-index: 1;
+    border-radius: 1rem;
+}
+#btncap{
+    height: 3rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: aliceblue;
+    color: cadetblue;
+    font-style: italic;
+    margin-right: 0.5rem;
+}
+#btncap:hover{
+    color: aliceblue;;
+    background-color: cadetblue;
+}
+#btncapcontact{
+    height: 3rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: aliceblue;
+    color: cadetblue;
+    font-style: italic;
+}
+#btncapcontact:hover{
+    color: aliceblue;
+    background-color: cadetblue;
+}
+/*FINAL STILIZARE HEADER*/
+body{
+    font-family: sans-serif;
+    background-color: cadetblue;
+}
+#fundaltitlu{
+    image-resolution: cover;
+    max-width: 100%;
+    margin-top: 5.5rem;
+}
+#divh2toatapagina{
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+#h2toatapagina{
+    color: cadetblue;
+}
+#imggrafic{
+    width: 100%;
+    height: 20rem;
+}
+/* AICI AVEM EXEMPLU DE ELEMENTE AFISATE DUPA TRECERREA URSORULUI PESTE */
+#detaliicucevaju{
+    width: 100%;
+    height: 26rem;
+    color: cadetblue;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 2rem;
+    transition: opacity 1s ease-in-out;
+    background-color: aliceblue;
+    opacity: 0;
+}
+#primcucevaju{
+    width: 100%;
+    height: 26rem;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+#h2cucevaju{
+    color: cadetblue;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+#sectioncucevaju{
+    position: relative;
+    display: inline-block;
+    width:30rem
+}
+#firstsection{
+    position: relative;
+    display: inline-block;
+    width:35rem;
+    margin-left: 0.6rem;
+}
+#secondsection{
+    position: relative;
+    display: inline-block;
+    width:35rem;
+    margin-left: 4rem;
+}
+#thirdsection{
+    position: relative;
+    display: inline-block;
+    width:35rem;
+    margin-left: 4rem;
+    margin-right: 0.6rem;
+}
+#firstsection:hover #detaliicucevaju{
+    display: block;
+    opacity: 1;
+}
+#secondsection:hover #detaliicucevaju{
+    display: block;
+    opacity: 1;
+}
+#thirdsection:hover #detaliicucevaju{
+    display: block;
+    opacity: 1;
+}
+#firstsection:hover #primcucevaju{
+    display: block;
+    opacity: 0;
+}
+#secondsection:hover #primcucevaju{
+    display: block;
+    opacity: 0;
+}
+#thirdsection:hover #primcucevaju{
+    display: block;
+    opacity: 0;
+}
+/*FINAL EXEMPLU DE ELEMENTE AFISATE DUPA TRECERA CURSORULUI PESTE ELEMENTE*/
+/*BUTON DETALII CU CE VA AJUTA*/
+#button{
+    width: 100%;
+    height: 2rem;
+    left: 1rem;
+    right: 1rem;
+    margin-top: 0.5rem;
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    color: cadetblue;
+    font-style: italic;
+}
+#button:hover{
+    color: aliceblue;
+    background-color: cadetblue;
+    border-color: aliceblue;
+    border-radius: 2rem;
+}
+#sectionbtn{
+    margin-top: 30rem;
+}
+/*FINAL BUTON DETALII CU CE VA AJUTA*/
+/* STILIZAREA LA CAT COSTA SI VA PREZENTAM*/
+#h2prt-h3prt{
+    background-color: aliceblue;
+    border-radius:  1rem;
+}
+#h2prt{
+    background-color: aliceblue;
+    color: cadetblue;
+    border-radius: 1rem;
+}
+#h3prt{
+    background-color: aliceblue;
+    color: cadetblue;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+}
+/*FINAL STILIZARE CAT COSTA SI VA PREZENTAM*/
+/*STILIZARE PLAN*/
+#divpretdetalii{
+    background-color: aliceblue;
+    position: relative;
+    display: inline-block;
+    width: 30rem;
+    height: 120rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+}
+#pret-detalii{
+    display: flex;
+    justify-content: center;
+}
+#panda{
+    width: 14rem;
+    height: 12rem;
+    margin-left: 8rem;
+}
+#planul{
+    display: flex;
+    justify-content: center;
+    color: cadetblue;
+}
+#h5pret{
+    display: flex;
+    justify-content: center;
+    color: cadetblue;
+    font-size: 1rem;
+}
+#h5pretpachet{
+    display: flex;
+    justify-content: center;
+    color: cadetblue;
+    margin-top: -10rem;
+    font-size: 1rem;
+}
+#europret{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 4rem;
+}
+#pretnumar{
+    font-size: 10rem;
+    color: cadetblue;
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
+}
+#h3pret{
+    position: relative;
+    display: inline-block;
+    color: cadetblue;
+    font-style: italic;
+}
+hr{
+    background-color: cadetblue;
+    height: 0.3rem;
+}
+#h3pretparte{
+    color: cadetblue;
+    font-style: italic;
+    position: relative;
+    display: inline-block;
+}
+#bifadesign{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 14rem;
+}
+#bifaconsultanta{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 19rem;
+}
+#bifaadaugare{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 15.5rem;
+}
+#bifaformular{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 16rem;
+}
+#bifaoptimizare{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 11rem;
+}
+#bifalogo{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 18.5rem;
+}
+#bifagazduire{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 17.3rem;
+}
+#bifadomeniu{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 17.2rem;
+}
+#bifaadresa{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 17rem;
+}
+#bifaconectareretele{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 11.2rem;
+}
+#bifamaps{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 17.2rem;
+}
+#bifablog{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 21.9rem;
+}
+#bifaidentitate{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 15rem;
+}
+#xlogo{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 18.5rem;
+}
+#xgazduire{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 17.3rem;
+}
+#xdomeniu{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 17.2rem;
+}
+#xadrese{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 17rem;
+}
+#xconectareretele{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 11.2rem;
+}
+#xmaps{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 17.2rem;
+}
+#xblog{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 21.9rem;
+}
+#xidentitate{
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 15rem;
+}
+#h3pretpartenrpg{
+    color: cadetblue;
+    font-style: italic;
+    position: relative;
+    display: inline-block;
+    margin-left: 17rem;
+}
+#h3pretparterevizii{
+    color: cadetblue;
+    font-style: italic;
+    position: relative;
+    display: inline-block;
+    margin-left: 16.4rem;
+}
+#h3pretpartedurata{
+    color: cadetblue;
+    font-style: italic;
+    position: relative;
+    display: inline-block;
+    margin-left: 14.5rem;
+}
+#h3pretparteasistenta{
+    color: cadetblue;
+    font-style: italic;
+    position: relative;
+    display: inline-block;
+    margin-left: 14rem;
+}
+#btnsolicitare{
+    color: aliceblue;
+    background-color: cadetblue;
+    font-size: 1.5rem;
+    margin-left: 9rem;
+    border: none;
+    border-radius: 2rem;
+}
+#btnsolicitare:hover{
+    color: cadetblue;
+    background-color: aliceblue;
+}
+/*FINAL STILIZRE PLAN*/
+/*STILIZARE SUBSOL*/ 
+#subsol{
+    margin-top: 5rem;
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 2rem;
+    height: 30rem;
+}
+#h2contact{
+    color: cadetblue;
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+#h3contact{
+    color: cadetblue;
+    position: relative;
+    display: inline-block;
+}
+#imgcontact{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    position: relative;
+    display: inline-block;
+}
+/*STILIZARE FORMULAR*/
+#formular{
+    position: center;
+    margin-left: 50rem;
+    margin-top: -29rem;
+    background-color: cadetblue;
+    color: aliceblue;
+    width: 25rem;
+    padding: 0.5rem;
+    line-height: 2rem;
+}
+#caredin{
+    position: relative;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+#casuta{
+    width: 1.5rem;
+    height: 1.5rem;
+    top: -10rem;
+}
+#caredin h5{
+    margin-bottom: -0.5rem;
+}
+#caredin{
+    margin-top: -2rem;
+}
